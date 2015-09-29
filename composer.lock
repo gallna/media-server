@@ -1,0 +1,133 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ec0b5ce54fc27a57bcec58ef3e4750fd",
+    "content-hash": "8778a375add23de62f374c02c730dd87",
+    "packages": [
+        {
+            "name": "axelarge/array-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/axelarge/php-array-tools.git",
+                "reference": "60978ce30020693417f18432aa33b996c92144ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axelarge/php-array-tools/zipball/60978ce30020693417f18432aa33b996c92144ff",
+                "reference": "60978ce30020693417f18432aa33b996c92144ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Axelarge\\ArrayTools": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miķelis Vindavs",
+                    "email": "mikelis.vindavs@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Array tools for PHP 5.3",
+            "homepage": "https://github.com/axelarge/php-array-tools",
+            "keywords": [
+                "array"
+            ],
+            "time": "2012-09-22 17:37:39"
+        },
+        {
+            "name": "gallna/media-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gallna/media-library.git",
+                "reference": "1466e23f7ea762c83cd114c3bdecbf5450ab45b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gallna/media-library/zipball/1466e23f7ea762c83cd114c3bdecbf5450ab45b0",
+                "reference": "1466e23f7ea762c83cd114c3bdecbf5450ab45b0",
+                "shasum": ""
+            },
+            "require": {
+                "axelarge/array-tools": "dev-master",
+                "james-heinrich/getid3": "1.9.9",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kemer\\MediaLibrary\\": "src/Kemer/MediaLibrary"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Tomasz Jonik",
+                    "email": "tom.jonik@hotmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/gallna/media-library/tree/master",
+                "issues": "https://github.com/gallna/media-library/issues"
+            },
+            "time": "2015-09-28 23:09:06"
+        },
+        {
+            "name": "james-heinrich/getid3",
+            "version": "v1.9.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JamesHeinrich/getID3.git",
+                "reference": "c34fb84e295477cc1865b2ea4dad2d13452058d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/c34fb84e295477cc1865b2ea4dad2d13452058d1",
+                "reference": "c34fb84e295477cc1865b2ea4dad2d13452058d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "getid3/getid3.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "description": "PHP script that extracts useful information from popular multimedia file formats",
+            "homepage": "http://www.getid3.org/",
+            "keywords": [
+                "codecs",
+                "php",
+                "tags"
+            ],
+            "time": "2014-12-18 16:39:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

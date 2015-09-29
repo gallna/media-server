@@ -1,0 +1,24 @@
+{
+    "name": "gallna/media-server",
+    "require": {
+        "gallna/media-library": "*"
+    },
+    "authors": [
+        {
+            "name": "Tomasz Jonik",
+            "email": "tom.jonik@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kemer\\MediaServer\\": "src/Kemer/MediaServer"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:gallna/media-library.git"
+        }
+    ]
+}
